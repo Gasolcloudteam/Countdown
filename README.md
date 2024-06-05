@@ -24,11 +24,21 @@
 
 # 修改使用
 
-1. 可自行调节 文字是否动态取色，见 `gk.js` 里面的 `const useDynamicColor = true;`
+克隆本仓库
 
-2. 可选择调用本地时钟或者调用时钟服务器作为倒计时时间，还是 `gk.js` 里面的 `const useLocalTime = false;`
+```bash
+git clone https://github.com/Gasolcloudteam/Countdown
+```
 
-3. 背景也可以自行更改，见 `gk.css` 里面的 `background-image: url('https://api.paugram.com/bing');` 这里默认使用保罗的Bing每日壁纸API。
+对于新手和特别在意硬盘空间占用的人：请克隆完毕后自行删除除了 `index.html` `gk.css` `gk.js` 以外的其他文件，只需要保留这三个文件即可运行。
+
+#### 一些修改说明
+
+可自行调节 文字是否动态取色，见 `gk.js` 里面的 `const useDynamicColor = true;`
+
+可选择调用本地时钟或者调用时钟服务器作为倒计时时间，还是 `gk.js` 里面的 `const useLocalTime = false;`
+
+背景也可以自行更改，见 `gk.css` 里面的 `background-image: url('https://api.paugram.com/bing');` 这里默认使用保罗的Bing每日壁纸API。
 
 如果遇到突发情况（比如前几年新冠）导致高考时间调整，可自行更改相关代码。本代码可以直接编辑保存后在浏览器打开查看，也可以自己部署到服务器绑定域名随时查看，如果您是老师，可以将其作为班级教学电脑桌面壁纸。
 
