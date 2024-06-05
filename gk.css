@@ -1,0 +1,74 @@
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://api.paugram.com/bing'); /* 替换为您的背景图片URL */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative; /* 为了在背景上添加遮罩层 */
+}
+h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+.countdown {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.greeting {
+    font-size: 24px;
+    margin-top: 20px;
+    display: none;
+}
+.hitokoto {
+    font-size: 20px;
+    margin-top: 30px;
+    font-style: italic;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.7); /* 浅灰色遮罩 */
+    z-index: 1; /* 设置遮罩层的z-index，低于背景层 */
+}
+footer {
+position: absolute;
+bottom: 0;
+width: 100%;
+padding: 10px;
+text-align: center;
+box-sizing: border-box;
+z-index: 2; /* 设置页脚的z-index，高于遮罩层 */
+}
+.content {
+    position: relative;
+    z-index: 2;
+    padding-bottom: 60px; /* 根据页脚高度调整 */
+}
+.dynamic-color {
+    animation: colorChange 10s infinite;
+}
+@keyframes colorChange {
+    0% { color: #ff0000; }
+    14% { color: #ff7f00; }
+    28% { color: #ffff00; }
+    42% { color: #00ff00; }
+    56% { color: #0000ff; }
+    70% { color: #4b0082; }
+    84% { color: #9400d3; }
+    100% { color: #ff0000; }
+}
+.auto-color {
+    color: black; /* 默认颜色为黑色 */
+    transition: color 0.5s ease;
+}
