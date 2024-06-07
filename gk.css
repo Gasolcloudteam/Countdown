@@ -39,16 +39,16 @@ h1 {
     width: 100%;
     height: 100%;
     background-color: rgba(255, 255, 255, 0.7); /* 浅灰色遮罩 */
-    z-index: 1; /* 设置遮罩层的z-index，低于背景层 */
+    z-index: 1;
 }
 footer {
-position: absolute;
-bottom: 0;
-width: 100%;
-padding: 10px;
-text-align: center;
-box-sizing: border-box;
-z-index: 2; /* 设置页脚的z-index，高于遮罩层 */
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    box-sizing: border-box;
+    z-index: 2; /* 设置页脚的z-index，高于遮罩层 */
 }
 .content {
     position: relative;
