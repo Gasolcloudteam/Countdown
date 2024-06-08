@@ -46,7 +46,7 @@ git clone https://github.com/Gasolcloudteam/Countdown
 
 ## 致谢以下项目
 
-随机一言功能基于 <a target="_blank" href="https://hitokoto.cn/">一言</a> API 实现。Bing每日壁纸背景由 <a target="_blank" href="https://api.paugram.com/help/bing">保罗</a> 提供。
+随机一言功能基于 <a target="_blank" href="https://hitokoto.cn/">一言</a> API 实现。Bing每日壁纸背景API由 <a target="_blank" href="https://api.paugram.com/help/bing">保罗</a> 提供。
 
 ## 许可证
 
